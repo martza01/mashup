@@ -1,0 +1,23 @@
+ #map-canvas {
+	    height: 600px;
+	    width: 800px;
+	    display: block;
+	    margin: auto;	  
+	}
+
+	  .defaultImg {
+	  	height: 50%;
+	  	width: 50%;
+	  	display: block;
+	  	margin: auto;
+	  }
+
+	  #searchBars {
+	  	padding-bottom: 50px;
+	  	text-align: center;
+	  }
+
+	  .preview {
+	  	display: block;
+	  	margin: auto;
+	  }

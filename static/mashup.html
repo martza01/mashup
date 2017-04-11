@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mash Test</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script type="text/javascript"
+      src="https://maps.google.com/maps/api/js?key=AIzaSyBO8kMbb0D6VQ6uARKl6l5hFUjaVzcEX-k&sensor=false"></script>
+	<script src="js/recipes.js"></script>
+	<script src="js/maptest2.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="map-canvas"></div>
+		</div>
+
+		<div class="row" >
+			<div class="row" id="searchBars">
+				<h1>Recipes!</h1>
+				<input type="text" id="ingredientinput" placeholder="Search Ingredients...">
+				<input type="text" id="searchinput" placeholder="Search Titles...">
+				<button id="getbutton" class="btn btn-primary btn-md" onclick="rc.doSearch();">Get Recipes</button>
+			</div>
+
+			
+			<div id="recipetable">
+					
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>
